@@ -1,7 +1,6 @@
 #!/bin/bash
 
 # osTicket Automated Installation Script for Ubuntu
-# Maintainer: ChatGPT
 # Features: Dynamically fetch latest version, handle database setup, automate installation, and include APCu for better performance.
 
 set -e  # Exit on error
