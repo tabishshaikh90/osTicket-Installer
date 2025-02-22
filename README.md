@@ -14,13 +14,10 @@ This script **automates the installation of osTicket** on an Ubuntu server. It d
 
 ## **💻 Installation (One Command)**
 Run the following command in your terminal:
-```bash
+
 bash <(curl -s https://raw.githubusercontent.com/tabishshaikh90/osTicket-Installer/main/install.sh)
 OR
 
-bash
-Copy
-Edit
 wget -qO- https://raw.githubusercontent.com/tabishshaikh90/osTicket-Installer/main/install.sh | bash
 
 📜 What This Script Does
@@ -37,20 +34,24 @@ Clear all data
 7️⃣ Renames ost-sampleconfig.php to ost-config.php for easier installation.
 8️⃣ Sets file permissions and enables Apache rewrite module.
 9️⃣ Provides the URL and database credentials for final setup.
+
 🛠 Requirements
 Ubuntu 20.04 / 22.04 (Tested)
 Root or sudo access
 Internet connection
+
 📌 After Installation
 Open your browser and go to:
-bash
-Copy
-Edit
 http://your-server-ip/osticket
+
 Follow the on-screen setup instructions.
+
 Enter the database details shown at the end of the installation.
+
 Complete the installation and remove the setup/ folder for security.
+
 🆘 Troubleshooting
+
 ❌ osTicket ZIP File Not Found
 ✔ Run: rm -f /var/www/html/osticket.zip and try again.
 
